@@ -22,9 +22,11 @@ class Main {
 
     TripletHeterogene<String> test = new TripletHeterogene<String>("Riri", "Fifi", "Loulou");
     test.afficher();
-    */
+    
     String[] tableau = new String[] {"hello","world","!","TEST","KIKOU"};
     System.out.println(Retour.<String>getRandomValue(tableau));
+    */
+
     
   }
 }
